@@ -1634,14 +1634,14 @@ app.get("/api/auth/google-simulate", (req, res) => {
           </div>
 
           <div class="mt-8 space-y-3">
-            <a href="/auth/callback?code=mock_google_code_tanisht&email=tanishtthasehgal@gmail.com&name=Tanishth%20Sehgal&role=INVESTOR" 
+            <a href="/auth/callback?code=mock_google_code_tanisht&email=tusharbanga2405@gmail.com&name=Tanishth%20Sehgal&role=INVESTOR" 
                class="flex items-center space-x-3 w-full p-3 bg-[#1e294b] hover:bg-[#2e3b6e] border border-gray-700 hover:border-gray-600 rounded-xl transition-all text-left">
               <div class="h-10 w-10 bg-gradient-to-tr from-violet-500 to-indigo-500 rounded-full flex items-center justify-center font-bold text-white shadow-inner">
                 TS
               </div>
               <div>
                 <div class="text-sm font-semibold text-white">Tanishth Sehgal (Investor)</div>
-                <div class="text-xs text-gray-400">tanishtthasehgal@gmail.com</div>
+                <div class="text-xs text-gray-400">tusharbanga2405@gmail.com</div>
               </div>
             </a>
 
@@ -4725,7 +4725,7 @@ app.post("/api/notifications/test-send", requireAuth, async (req: AuthRequest, r
     logs.push(`[FCM] Firebase dispatch SUCCESS. Message-ID: fcm_msg_id_${Math.floor(Math.random()*100000)}`);
   } else if (type === "EMAIL") {
     logs.push("[SMTP] Initializing SMTP mail delivery client...");
-    logs.push(`[SMTP] Sending message to recipient: ${emailRecipient || "tanishtthasehgal@gmail.com"}`);
+    logs.push(`[SMTP] Sending message to recipient: ${emailRecipient || "tusharbanga2405@gmail.com"}`);
     logs.push(`[SMTP] Parsing inline responsive styles and injecting visual components...`);
     logs.push(`[SMTP] Email dispatch SUCCESS. SMTP Server Response: 250 Message accepted for delivery.`);
   } else if (type === "SMS") {

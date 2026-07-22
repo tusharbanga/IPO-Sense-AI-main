@@ -36,7 +36,7 @@ export default function PushAlertsHub({ onNotificationTrigger }: PushAlertsHubPr
     telegram: true,
     whatsapp: false
   });
-  const [emailRecipient, setEmailRecipient] = useState("tanishtthasehgal@gmail.com");
+  const [emailRecipient, setEmailRecipient] = useState("tusharbanga2405@gmail.com");
   const [phoneRecipient, setPhoneRecipient] = useState("+91 99999 88888");
   const [savingSettings, setSavingSettings] = useState(false);
   const [settingsSavedMsg, setSettingsSavedMsg] = useState(false);
