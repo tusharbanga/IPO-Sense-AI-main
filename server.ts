@@ -8,7 +8,6 @@ import Groq from "groq-sdk";
 import jwt from "jsonwebtoken";
 import { PDFParse } from "pdf-parse";
 
-// Import PostgreSQL Database & authentication middleware
 import { db as postgresDb } from "./src/db/index.ts";
 import { 
   users as dbUsers, 
