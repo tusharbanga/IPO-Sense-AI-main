@@ -52,7 +52,6 @@ app.use(csrfProtection);
 const getAesSecret = () => secretsManager.get("AES_SECRET") || "d6f51952a2d48858e3b567ef54fa86aa";
 const IV_LENGTH = 16;
 
-// Encryption and decryption utility for sensitive PAN and application numbers
 function encrypt(text: string): string {
   if (!text) return text;
   try {
