@@ -45,7 +45,6 @@ const PORT = 3000;
 
 app.use(express.json({ limit: "50mb" }));
 
-// Mount Enterprise Security Middlewares globally
 app.use(securityHeaders);
 app.use(customRateLimiter);
 app.use(csrfProtection);
