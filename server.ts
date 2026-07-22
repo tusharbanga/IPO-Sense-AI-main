@@ -49,7 +49,6 @@ app.use(securityHeaders);
 app.use(customRateLimiter);
 app.use(csrfProtection);
 
-// AES-256-CBC Encryption Key & IV Settings
 const getAesSecret = () => secretsManager.get("AES_SECRET") || "d6f51952a2d48858e3b567ef54fa86aa";
 const IV_LENGTH = 16;
 
